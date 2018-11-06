@@ -185,8 +185,6 @@ class HoursChart extends Component {
                           data: beData,
                           borderColor: 'rgb(0, 255, 128)',
                           backgroundColor: 'rgba(0, 255, 128, 0.2)',
-                        //   borderColor: 'rgb(255, 255, 0)',
-                        //   backgroundColor: 'rgba(255, 255, 0, 0.2)'
                         pointBorderColor: 'black',
                         pointBorderWidth: 2,
                         borderWidth: 3
@@ -200,7 +198,6 @@ class HoursChart extends Component {
                           label: 'Dev BE',
                           data: beEng,
                           backgroundColor: 'rgb(0, 153, 77)',
-                        //   backgroundColor: 'rgb(204, 204, 0)',
                         borderColor: 'black',
                         borderWidth: 1
                         }]

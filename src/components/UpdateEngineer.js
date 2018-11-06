@@ -53,7 +53,7 @@ class UpdateEngineer extends React.Component {
 
         return (
             <div>
-                <form className="sideForm" onSubmit={this.putData}> 
+                <form className="sideForm w" onSubmit={this.putData}> 
                         <div className="divSideForm">
                             <label>Name:<br />
                                 <input placeholder="first and last" className="inputAdd" type="text" name="name" value={this.state.name} onChange={this.handleChange} required/>
